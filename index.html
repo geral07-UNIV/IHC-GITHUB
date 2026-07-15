@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tributo Facil: consulta, declara y paga tus obligaciones tributarias en un solo lugar, de forma clara y segura.">
+  <title>Tributo Facil-Tus obligaciones tributarias, en un solo lugar</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+  <!-- ============================== HEADER ============================== -->
+  <header class="header">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">TF</span>
+      <a href="index.html" class="brand-name">Tributo Facil</a>
+    </div>
+
+    <nav class="nav" id="primary-nav" aria-label="Navegacion principal">
+      <a href="index.html" aria-current="page">Inicio</a>
+      <a href="personas-naturales.html">Personas</a>
+      <a href="emprendedores.html">Emprendedores</a>
+      <a href="empresas.html">Empresas</a>
+      <a href="contadores.html">Contadores</a>
+      <a href="#preguntas">Preguntas frecuentes</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="header-actions">
+      <a href="#contacto" class="btn-primary">Contactanos</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu de navegacion" aria-expanded="false" aria-controls="primary-nav">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ============================== HERO ============================== -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-content">
+        <span class="hero-eyebrow">Plataforma tributaria digital</span>
+        <h1 id="hero-title">Tus obligaciones tributarias, claras y en un solo lugar</h1>
+        <p>
+          Consulta tus pagos, declaraciones y comprobantes electronicos, recibe
+          alertas de vencimiento y resuelve tus dudas sin recorrer varios
+          canales. Pensado para personas, emprendedores, empresas y contadores.
+        </p>
+        <div class="hero-btns">
+          <a href="#segmentos" class="btn-primary">Consultar mis obligaciones</a>
+          <a href="#servicios" class="btn-outline">Conocer los servicios</a>
+        </div>
+      </div>
+
+      <!-- Tarjeta visual: adelanto del "estado de obligaciones" que se repite
+           como elemento distintivo en todo el sitio -->
+      <div class="hero-visual" role="img" aria-label="Ejemplo de resumen de obligaciones tributarias con sus estados">
+        <div class="hero-visual-header">
+          <span>Resumen de obligaciones</span>
+        </div>
+        <div class="hero-visual-row">
+          <div class="hero-visual-info">
+            <h4>Declaracion mensual-Marzo</h4>
+            <p>Vence en 5 dias</p>
+          </div>
+          <span class="badge badge-warning">Pendiente</span>
+        </div>
+        <div class="hero-visual-row">
+          <div class="hero-visual-info">
+            <h4>Recibo por honorarios N.0231</h4>
+            <p>Emitido el 02 de marzo</p>
+          </div>
+          <span class="badge badge-success">Pagado</span>
+        </div>
+        <div class="hero-visual-row">
+          <div class="hero-visual-info">
+            <h4>Declaracion mensual-Enero</h4>
+            <p>Vencio el 14 de febrero</p>
+          </div>
+          <span class="badge badge-danger">Vencido</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= BARRA DE CONFIANZA ========================= -->
+    <section class="trust-bar" aria-label="Beneficios de usar Tributo Fácil">
+      <div class="trust-item">
+        <span class="trust-icon" aria-hidden="true"></span>
+        <div>
+          <h4>Datos protegidos</h4>
+          <p>Tu informacion tributaria se maneja de forma segura</p>
+        </div>
+      </div>
+      <div class="trust-item">
+        <span class="trust-icon" aria-hidden="true"></span>
+        <div>
+          <h4>Alertas de vencimiento</h4>
+          <p>Te avisamos antes de que una obligacion venza</p>
+        </div>
+      </div>
+      <div class="trust-item">
+        <span class="trust-icon" aria-hidden="true"></span>
+        <div>
+          <h4>Atencion en varios canales</h4>
+          <p>Chat, correo y telefono segun lo que prefieras</p>
+        </div>
+      </div>
+      <div class="trust-item">
+        <span class="trust-icon" aria-hidden="true"></span>
+        <div>
+          <h4>Disponible en tu celular</h4>
+          <p>Consulta tus obligaciones desde cualquier lugar</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ SEGMENTOS ============================
+         Cada tarjeta enlaza a una pagina completa dedicada a Historia
+         de Usuario (HU01/HU04) -->
+    <section class="section" id="segmentos" aria-labelledby="segmentos-title">
+      <div class="section-title">
+        <span class="eyebrow">Para cada usuario</span>
+        <h2 id="segmentos-title">¿Que necesitas hacer hoy?</h2>
+        <p>Elige tu perfil y entra a la seccion pensada especificamente para ti</p>
+      </div>
+
+      <div class="segments-grid">
+        <a href="personas-naturales.html" class="segment-card">
+          <span class="segment-icon" aria-hidden="true">PN</span>
+          <h3>Personas naturales</h3>
+          <p>Consulta tus pagos, deudas, recibos por honorarios y fechas de vencimiento.</p>
+          <span class="segment-link">Ver mis obligaciones →</span>
+        </a>
+
+        <a href="emprendedores.html" class="segment-card">
+          <span class="segment-icon" aria-hidden="true">EM</span>
+          <h3>Emprendedores</h3>
+          <p>Aprende a emitir comprobantes electronicos y declarar desde el inicio.</p>
+          <span class="segment-link">Ver orientacion →</span>
+        </a>
+
+        <a href="empresas.html" class="segment-card">
+          <span class="segment-icon" aria-hidden="true">EP</span>
+          <h3>Empresas</h3>
+          <p>Gestiona declaraciones, comprobantes y reportes tributarios centralizados.</p>
+          <span class="segment-link">Ver gestion empresarial →</span>
+        </a>
+
+        <a href="contadores.html" class="segment-card">
+          <span class="segment-icon" aria-hidden="true">CT</span>
+          <h3>Contadores</h3>
+          <p>Encuentra respuestas rapidas para apoyar a tus clientes en sus tramites.</p>
+          <span class="segment-link">Ver preguntas frecuentes →</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ============================ SERVICIOS ============================ -->
+    <section class="section section-alt" id="servicios" aria-labelledby="servicios-title">
+      <div class="section-title">
+        <span class="eyebrow">Como te ayuda</span>
+        <h2 id="servicios-title">Todo lo que necesitas en un mismo lugar</h2>
+        <p>Sin tener que revisar distintos canales para conocer tu situacion tributaria</p>
+      </div>
+
+      <div class="info-grid">
+        <div class="info-card">
+          <h3>Consulta clara</h3>
+          <p>Visualiza tus pagos, deudas y declaraciones con explicaciones simples, sin tecnicismos.</p>
+        </div>
+        <div class="info-card">
+          <h3>Declaracion guiada</h3>
+          <p>Te acompañamos paso a paso al declarar, sobre todo si es tu primera vez.</p>
+        </div>
+        <div class="info-card">
+          <h3>Alertas automaticas</h3>
+          <p>Recibe avisos antes de que una obligacion este por vencer.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= PREGUNTAS FRECUENTES ======================= -->
+    <section class="section" id="preguntas" aria-labelledby="preguntas-title">
+      <div class="section-title">
+        <span class="eyebrow">Dudas comunes</span>
+        <h2 id="preguntas-title">Preguntas frecuentes</h2>
+        <p>Si eres contador y buscas mas detalle, visita la seccion dedicada a ti</p>
+      </div>
+
+      <!-- <details>/<summary> -->
+      <details class="faq-item">
+        <summary>¿Que es Tributo Facil?</summary>
+        <p>Es una plataforma que centraliza la consulta, declaracion y pago de tus obligaciones tributarias en un solo lugar.</p>
+      </details>
+      <details class="faq-item">
+        <summary>¿Puedo usarla desde mi celular?</summary>
+        <p>Sí, la plataforma esta adaptada para computadoras, tablets y celulares.</p>
+      </details>
+      <details class="faq-item">
+        <summary>¿Que pasa si tengo una obligacion vencida?</summary>
+        <p>El sistema la resalta claramente con la etiqueta "Vencido" y te sugiere contactarnos para resolverla.</p>
+      </details>
+    </section>
+
+    <!-- ===================== FORMULARIO DE CONTACTO ===================== -->
+    <section class="section form-section" id="contacto" aria-labelledby="form-title">
+      <div class="form-inner">
+        <div class="form-copy">
+          <span class="eyebrow">Escribenos</span>
+          <h2 id="form-title">¿Tienes una consulta?</h2>
+          <p>Cuentanos que necesitas y un asesor se pondra en contacto contigo a la brevedad.</p>
+        </div>
+
+        <form class="form-card" id="registroForm" aria-label="Formulario de contacto" novalidate>
+          <p class="required-note">Los campos marcados con * son obligatorios</p>
+
+          <div class="form-group" id="group-nombre">
+            <label for="nombre">Nombre completo *</label>
+            <input type="text" id="nombre" name="nombre" required aria-required="true" aria-describedby="error-nombre">
+            <span class="error-message" id="error-nombre" role="alert"></span>
+          </div>
+
+          <div class="form-group" id="group-correo">
+            <label for="correo">Correo electronico *</label>
+            <input type="email" id="correo" name="correo" required aria-required="true" aria-describedby="error-correo">
+            <span class="error-message" id="error-correo" role="alert"></span>
+          </div>
+
+          <div class="form-group" id="group-tipo-usuario">
+            <label for="tipo-usuario">Tipo de usuario *</label>
+            <select id="tipo-usuario" name="tipo-usuario" required aria-required="true" aria-describedby="error-tipo-usuario">
+              <option value="">Selecciona una opcion</option>
+              <option value="persona-natural">Persona natural</option>
+              <option value="emprendedor">Emprendedor</option>
+              <option value="empresa">Empresa</option>
+              <option value="contador">Contador</option>
+            </select>
+            <span class="error-message" id="error-tipo-usuario" role="alert"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" placeholder="Cuentanos que necesitas"></textarea>
+          </div>
+
+          <div class="checkbox-group" id="group-terminos">
+            <input type="checkbox" id="terminos" name="terminos" required aria-required="true" aria-describedby="error-terminos">
+            <label for="terminos">Acepto los terminos y condiciones y la politica de privacidad *</label>
+          </div>
+          <span class="error-message" id="error-terminos" role="alert"></span>
+
+          <button type="submit" class="btn-submit">Enviar consulta</button>
+
+          <div class="form-success" id="formSuccess" role="status" tabindex="-1" hidden>
+            Tu consulta fue enviada correctamente. Nos pondremos en contacto contigo pronto.
+          </div>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================== FOOTER ============================== -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>Tributo Facil</h4>
+        <p>Plataforma digital que centraliza la consulta, declaracion y pago de obligaciones tributarias.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Segmentos</h4>
+        <a href="personas-naturales.html">Personas naturales</a>
+        <a href="emprendedores.html">Emprendedores</a>
+        <a href="empresas.html">Empresas</a>
+        <a href="contadores.html">Contadores</a>
+      </div>
+      <div class="footer-col">
+        <h4>Ayuda</h4>
+        <a href="#preguntas">Preguntas frecuentes</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+      <div class="footer-col">
+        <h4>Siguenos</h4>
+        <a href="#" aria-label="Facebook de Tributo Facil">Facebook</a>
+        <a href="#" aria-label="Instagram de Tributo Facil">Instagram</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Copyright &copy; @2026 Tributo Facil/Geraldine Suarez-Todos los derechos reservados</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

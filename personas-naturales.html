@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Consulta de forma clara tus pagos, deudas, recibos por honorarios y declaraciones pendientes en Tributo Fácil.">
+  <title>Personas naturales Tributo Facil</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+  <!-- ============================== HEADER ==============================-->
+       
+  <header class="header">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">TF</span>
+      <a href="index.html" class="brand-name">Tributo Facil</a>
+    </div>
+
+    <nav class="nav" id="primary-nav" aria-label="Navegacion principal">
+      <a href="index.html">Inicio</a>
+      <a href="personas-naturales.html" aria-current="page">Personas</a>
+      <a href="emprendedores.html">Emprendedores</a>
+      <a href="empresas.html">Empresas</a>
+      <a href="contadores.html">Contadores</a>
+      <a href="index.html#preguntas">Preguntas frecuentes</a>
+      <a href="index.html#contacto">Contacto</a>
+    </nav>
+
+    <div class="header-actions">
+      <a href="index.html#contacto" class="btn-primary">Contactanos</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu de navegacion" aria-expanded="false" aria-controls="primary-nav">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <p class="breadcrumb"><a href="index.html">Inicio</a> / Personas naturales</p>
+
+  <main id="main-content">
+
+    <!-- ==== HERO HU01: "Como persona natural, quiero consultar de manera
+         clara mis pagos, deudas, recibos por honorarios y declaraciones
+         pendientes, para conocer mi situacion tributaria sin tener que
+         revisar distintos canales." ==== -->
+    <section class="hero hero-solo" aria-labelledby="hero-title">
+      <div class="hero-content">
+        <span class="hero-eyebrow">Para personas naturales</span>
+        <h1 id="hero-title">Consulta clara de tus obligaciones tributarias</h1>
+        <p>
+          Revisa en un mismo lugar tus pagos, deudas, recibos por honorarios
+          y declaraciones pendientes, sin tener que entrar a distintos
+          canales para entender tu situacion.
+        </p>
+        <div class="hero-btns">
+          <a href="#obligaciones" class="btn-primary">Ver mis obligaciones</a>
+          <a href="#vencimientos" class="btn-outline">Ver proximos vencimientos</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==== Criterio: "mostrar precio... disponibilidad" adaptado a
+         "mostrar resumen de obligaciones vigentes desde la pagina" y
+         "poder identificar facilmente sus recibos por honorarios y el
+         estado de cada uno" Escenarios 1 y 3 de HU01. ==== -->
+    <section class="section section-alt" id="obligaciones" aria-labelledby="obligaciones-title">
+      <div class="section-title">
+        <span class="eyebrow">Tu resumen</span>
+        <h2 id="obligaciones-title">Tus obligaciones y recibos</h2>
+        <p>Asi se veria tu resumen dentro de la plataforma, con el estado de cada obligacion</p>
+      </div>
+
+      <div class="obligation-list">
+        <div class="obligation-row">
+          <div>
+            <h4>Declaracion mensual-Marzo</h4>
+            <p>Impuesto a la renta de tercera categoria</p>
+          </div>
+          <span class="badge badge-warning">Pendiente</span>
+        </div>
+        <div class="obligation-row">
+          <div>
+            <h4>Recibo por honorarios N.0231</h4>
+            <p>Emitido el 02 de marzo, retencion aplicada</p>
+          </div>
+          <span class="badge badge-success">Pagado</span>
+        </div>
+        <div class="obligation-row">
+          <div>
+            <h4>Declaracion mensual-Enero</h4>
+            <p>Vencio el 14 de febrero</p>
+          </div>
+          <span class="badge badge-danger">Vencido</span>
+        </div>
+        <div class="obligation-row">
+          <div>
+            <h4>Recibo por honorarios N.0198</h4>
+            <p>Emitido el 20 de enero</p>
+          </div>
+          <span class="badge badge-success">Pagado</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==== Criterio: "informacion visible sobre fechas de vencimiento
+         proximas" Escenario 2 de HU01. ==== -->
+    <section class="section" id="vencimientos" aria-labelledby="vencimientos-title">
+      <div class="section-title">
+        <span class="eyebrow">No pierdas la fecha</span>
+        <h2 id="vencimientos-title">Proximos vencimientos</h2>
+        <p>Te avisamos antes de que una obligacion este por vencer</p>
+      </div>
+
+      <div class="alert-box" role="note">
+        <span aria-hidden="true">⚠️</span>
+        <p>
+          <strong>Tu declaracion mensual de marzo vence en 5 dias.</strong>
+          Te recomendamos revisarla con anticipacion para evitar una multa o un
+          recargo por pago fuera de fecha.
+        </p>
+      </div>
+    </section>
+
+    <!-- ==== Criterio: "boton de contacto accesible para resolver dudas
+         puntuales" cierra la pagina con un llamado a la accion. ==== -->
+    <section class="section section-alt">
+      <div class="cta-box">
+        <h2>¿Tienes una duda sobre tu situacion tributaria?</h2>
+        <p>Escribenos y un asesor te ayudara a resolverla</p>
+        <a href="index.html#contacto" class="btn-primary">Contactanos</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>Tributo Facil</h4>
+        <p>Plataforma digital que centraliza la consulta, declaracion y pago de obligaciones tributarias.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Segmentos</h4>
+        <a href="personas-naturales.html">Personas naturales</a>
+        <a href="emprendedores.html">Emprendedores</a>
+        <a href="empresas.html">Empresas</a>
+        <a href="contadores.html">Contadores</a>
+      </div>
+      <div class="footer-col">
+        <h4>Ayuda</h4>
+        <a href="index.html#preguntas">Preguntas frecuentes</a>
+        <a href="index.html#contacto">Contacto</a>
+      </div>
+      <div class="footer-col">
+        <h4>Siguenos</h4>
+        <a href="#" aria-label="Facebook de Tributo Facil">Facebook</a>
+        <a href="#" aria-label="Instagram de Tributo Facil">Instagram</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Copyright &copy; @2026 Tributo Facil/Geraldine Suarez - Todos los derechos reservados</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

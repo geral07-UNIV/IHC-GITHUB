@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Accede rápido a información organizada sobre comprobantes, declaraciones y pagos para orientar a tus clientes en Tributo Fácil.">
+  <title>Contadores — Tributo Fácil</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+  <header class="header">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">TF</span>
+      <a href="index.html" class="brand-name">Tributo Fácil</a>
+    </div>
+
+    <nav class="nav" id="primary-nav" aria-label="Navegación principal">
+      <a href="index.html">Inicio</a>
+      <a href="personas-naturales.html">Personas</a>
+      <a href="emprendedores.html">Emprendedores</a>
+      <a href="empresas.html">Empresas</a>
+      <a href="contadores.html" aria-current="page">Contadores</a>
+      <a href="index.html#preguntas">Preguntas frecuentes</a>
+      <a href="index.html#contacto">Contacto</a>
+    </nav>
+
+    <div class="header-actions">
+      <a href="index.html#contacto" class="btn-primary">Contáctanos</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="primary-nav">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <p class="breadcrumb"><a href="index.html">Inicio</a> / Contadores</p>
+
+  <main id="main-content">
+
+    <!-- ==== HERO — HU04: "Como contador, quiero acceder a información
+         clara y organizada sobre las obligaciones tributarias, para poder
+         orientar correctamente a mis clientes en sus declaraciones y
+         pagos." (incluye el acceso rápido desde el celular entre
+         actividades, Escenario 3 de HU04). ==== -->
+    <section class="hero hero-solo" aria-labelledby="hero-title">
+      <div class="hero-content">
+        <span class="hero-eyebrow">Para contadores</span>
+        <h1 id="hero-title">Encuentra respuestas rápidas para apoyar a tus clientes</h1>
+        <p>
+          Información organizada por tema, pensada para revisarse en poco
+          tiempo, incluso desde el celular entre una actividad y otra.
+        </p>
+        <div class="hero-btns">
+          <a href="#faq-contadores" class="btn-primary">Ver preguntas frecuentes</a>
+          <a href="#canales" class="btn-outline">Ver canales de atención</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==== Criterio: "buscador o agrupación temática de preguntas
+         frecuentes" — Escenario 1 de HU04. Se usa <details>/<summary>,
+         HTML5 nativo, sin necesidad de JavaScript. ==== -->
+    <section class="section section-alt" id="faq-contadores" aria-labelledby="faq-title">
+      <div class="section-title">
+        <span class="eyebrow">Por tema</span>
+        <h2 id="faq-title">Preguntas frecuentes agrupadas</h2>
+      </div>
+
+      <div class="faq-group">
+        <h3>Comprobantes electrónicos</h3>
+        <details class="faq-item">
+          <summary>¿Cómo verifico si un comprobante ya fue emitido correctamente?</summary>
+          <p>Puedes revisar el estado del comprobante en el resumen de obligaciones de tu cliente, dentro de su sección correspondiente.</p>
+        </details>
+        <details class="faq-item">
+          <summary>¿Qué hago si un comprobante quedó con errores?</summary>
+          <p>Se recomienda emitir una nota de corrección y comunicarlo a través del formulario de contacto para recibir orientación puntual.</p>
+        </details>
+      </div>
+
+      <div class="faq-group">
+        <h3>Declaraciones</h3>
+        <details class="faq-item">
+          <summary>¿Dónde veo la fecha límite de declaración de un cliente?</summary>
+          <p>En la sección de obligaciones aparece resaltada la fecha de vencimiento más próxima, junto con una alerta visual.</p>
+        </details>
+        <details class="faq-item">
+          <summary>¿Qué pasa si una declaración quedó vencida?</summary>
+          <p>El sistema la marca con la etiqueta "Vencido" para que puedas identificarla rápido y coordinar la regularización.</p>
+        </details>
+      </div>
+
+      <div class="faq-group">
+        <h3>Pagos</h3>
+        <details class="faq-item">
+          <summary>¿Cómo confirmo que un pago fue registrado?</summary>
+          <p>El estado cambia a "Pagado" en el resumen de obligaciones una vez que el pago queda confirmado.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- ==== Criterio: "identificar fácilmente los canales de atención
+         disponibles" — Escenario 2 de HU04. ==== -->
+    <section class="section" id="canales" aria-labelledby="canales-title">
+      <div class="section-title">
+        <span class="eyebrow">¿No encontraste tu respuesta?</span>
+        <h2 id="canales-title">Canales de atención</h2>
+      </div>
+
+      <div class="channels-grid">
+        <div class="channel-card">
+          <span class="channel-icon" aria-hidden="true">💬</span>
+          <h3>Chat en línea</h3>
+          <p>Respuesta rápida en horario de atención</p>
+        </div>
+        <div class="channel-card">
+          <span class="channel-icon" aria-hidden="true">✉️</span>
+          <h3>Correo electrónico</h3>
+          <p>Para consultas más detalladas</p>
+        </div>
+        <div class="channel-card">
+          <span class="channel-icon" aria-hidden="true">📞</span>
+          <h3>Teléfono</h3>
+          <p>Atención directa de lunes a sábado</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="cta-box">
+        <h2>¿No encontraste lo que buscabas?</h2>
+        <p>Escríbenos y te ayudamos a resolver la duda de tu cliente</p>
+        <a href="index.html#contacto" class="btn-primary">Contáctanos</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>Tributo Fácil</h4>
+        <p>Plataforma digital que centraliza la consulta, declaración y pago de obligaciones tributarias.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Segmentos</h4>
+        <a href="personas-naturales.html">Personas naturales</a>
+        <a href="emprendedores.html">Emprendedores</a>
+        <a href="empresas.html">Empresas</a>
+        <a href="contadores.html">Contadores</a>
+      </div>
+      <div class="footer-col">
+        <h4>Ayuda</h4>
+        <a href="index.html#preguntas">Preguntas frecuentes</a>
+        <a href="index.html#contacto">Contacto</a>
+      </div>
+      <div class="footer-col">
+        <h4>Síguenos</h4>
+        <a href="#" aria-label="Facebook de Tributo Fácil">Facebook</a>
+        <a href="#" aria-label="Instagram de Tributo Fácil">Instagram</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Copyright &copy; @2026 Tributo Facil/Geraldine Suarez-Todos los derechos reservados</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
